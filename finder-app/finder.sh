@@ -13,6 +13,7 @@ searchstr=$2
 if [ $# -ne 2 ]
 then
 	echo "Expecting 2 parameters"
+	echo "Usage: ./finder.sh <directory-path> <string-to-be-searched>"
 	exit 1
 # If $filesdir is not a directory, exit with an error
 elif [ ! -d "$filesdir" ] 

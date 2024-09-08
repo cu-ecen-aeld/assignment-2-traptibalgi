@@ -1,0 +1,9 @@
+# traptibalgi@Ubuntu:~/assignment-1-traptibalgi/finder-app$ make CROSS_COMPILE=~/arm-cross-compiler/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin/aarch
+64-none-linux-gnu-
+# /home/traptibalgi/arm-cross-compiler/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-gcc -Wall -Werror -c writer.c
+# /home/traptibalgi/arm-cross-compiler/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-gcc -Wall -Werror -o writer writer.o
+
+# traptibalgi@Ubuntu:~/assignment-1-traptibalgi/finder-app$ file writer
+Output:
+
+writer: ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, for GNU/Linux 3.7.0, with debug_info, not stripped

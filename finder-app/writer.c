@@ -63,6 +63,7 @@ int main(int argc, char *argv[])
         // Directory does not exist
         syslog(LOG_ERR, "Directory does not exist! Please enter a valid directory path");
         printf("ERROR: Invalid path!\n\r");
+        closelog();
         return ERROR;
     } 
     else if (!(info.st_mode & S_IFDIR))
@@ -70,6 +71,7 @@ int main(int argc, char *argv[])
         // Path exists but is not a directory
         syslog(LOG_ERR, "Path exists but is not a directory! Please enter a valid directory path\n\r");
         printf("ERROR: Invalid path!\n\r");
+        closelog();
         return ERROR;
     }
 
